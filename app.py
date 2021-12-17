@@ -29,11 +29,3 @@ def greet():
 
     flash(password)
     return render_template('index.html')
-
-
-
-# for _ in range(10):
-
-#     muestra = random.sample(base, longitud)
-#     password = ''.join(muestra)
-#     print(password)
